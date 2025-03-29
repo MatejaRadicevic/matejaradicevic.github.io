@@ -1,64 +1,57 @@
-
-<html>
-
-
-
-
-
-
-<body style="font-family: arial" font-size="15px">
-<title>Lazar Radicevic's homepage</title>
-
-
-
-<img src="foto.jpg" width="300" height="300" style="float:right; padding:10px;">
-
-
-<h2>Lazar Radicevic</h2>
-
-
-I am currently a postdoc at at King's College London. My mentor is <a href=" https://sites.google.com/view/rachelnewton/home"> Rachel Newton </a>. I was a PhD student at the 
-University of Cambridge, under the supervision of <a href="https://www.dpmms.cam.ac.uk/~taf1000/research.html">Tom Fisher</a>. 
-
-<br>I am interested in the arithmetic of elliptic curves, local-global principles and arithmetic statistics.
-
-<p> Contact: lazaradicevic(at)gmail(dot)com.
-
- 
-
-
-
-
-<h3>Preprints/Publications </h3>
-  <p> <i> The density of elliptic curves over Qp with a rational 3-torsion point or a rational 3-isogeny</i>, <br> Preprint, joint with Stevan Gajovic and Matteo Verzobio </a>  <a href=https://arxiv.org/abs/2502.08583>[arxiv]</a>
-
- <p> <i> Capitulation discriminants of genus one curves</i>, <br> Preprint </a>  <a href=https://arxiv.org/abs/2212.00838>[arxiv]</a>
-
- <p> <i> Explicit realisation of elements of the Tate-Shafarevich group constructed from Kolyvagin classes,</i> <br>  <i>  Res. number theory 8, 72 (2022)  </i>  <a href="kolyvagin_classes.pdf">[pdf]</a> 
-  <a href="https://arxiv.org/abs/2112.02016">[arxiv]</a> <br> <a href="kolyvagin_slides.pdf">[slides]</a> 
-<a href="https://github.com/lazaradicevic/kolyvagin.classes">[MAGMA code and further calculations]</a> 
-  
-<p> <i>Computing structure constants for rings of finite rank from minimal free resolutions</i>, joint with Tom Fisher 
- <br> <i>  Mathematical Research Letters, Vol. 30, No. 4 (2023), pp. 1011-1044 </i> <a href="str_consts.pdf">[pdf]</a>  <a href="https://arxiv.org/abs/2109.07845">[arxiv]</a>
-
-
-<p> <i> Some minimisation algorithms in arithmetic invariant theory </i>, joint with Tom Fisher
-<br> <i>  J. Théor. Nombres Bordeaux 30 (2018), no. 3, 801-828.  </i>  <a href="min_algs.pdf">[pdf]</a> <a href="https://arxiv.org/pdf/1703.01940.pdf">[arxiv]</a>
-
-
-
-
-<h3>PhD Thesis</h3>
-
-<p> <i>Capitulation Discriminants of Genus One Curves  </i>
- <a href="https://www.repository.cam.ac.uk/handle/1810/322339">[pdf]</a> <br><a href="Capitulation_presentation.pdf">[slides]</a> 
- 
-<h3>Events organized</h3>
-<br> I was one of the organizers for the conference <a href="https://www.mpim-bonn.mpg.de/node/11842">Young Number Theorists in Bonn</a> at the Max Planck Institute for Mathematics in Bonn, and one of the organizers of the AESIM/CIMPA school 
- <a href="https://sites.google.com/view/intac24/home"> Introduction to Number Theory and Algebraic Curves </a>.
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Stranica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Moje Portfolio</h1>
+        <img src="tvoja-slika.jpg" alt="Moja Slika">
+        <p>Zdravo! Ovde su neki od mojih radova:</p>
+        <ul>
+            <li><a href="#">Projekat 1</a></li>
+            <li><a href="#">Projekat 2</a></li>
+            <li><a href="#">Projekat 3</a></li>
+        </ul>
+    </div>
 </body>
-
-
 </html>
