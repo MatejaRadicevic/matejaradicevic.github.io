@@ -20,11 +20,13 @@
             margin: auto;
         }
         img {
-            width: 150px;
-            height: 150px;
+            width: 200px; /* Povećana širina */
+            height: 200px; /* Povećana visina */
             border-radius: 50%;
-            object-fit: cover;
-        }
+            object-fit: contain; /* Sprečava sečenje slike */
+            background-color: white; /* Dodaje belu pozadinu ako slika nije savršeno popunjena */
+            }
+
         ul {
             list-style: none;
             padding: 0;
